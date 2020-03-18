@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_my_mall">
+
+    <fragment
+        android:id="@+id/nav_my_mall"
+        android:name="com.gollachut.bd.ui.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_my_orders"
+        android:name="com.gollachut.bd.ui.MyOrdersFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_my_orders" />
+
+    <fragment
+        android:id="@+id/nav_my_rewards"
+        android:name="com.gollachut.bd.ui.MyRewardsFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_my_rewards" />
+
+    <fragment
+        android:id="@+id/nav_my_cart"
+        android:name="com.gollachut.bd.ui.MyCartFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_my_cart" />
+
+    <fragment
+        android:id="@+id/nav_my_wishlist"
+        android:name="com.gollachut.bd.ui.MyWishListFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_my_wish_list" />
+
+    <fragment
+        android:id="@+id/nav_my_account"
+        android:name="com.gollachut.bd.ui.MyAccountFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_my_account" />
+    <fragment
+        android:id="@+id/nav_log_out"
+        android:name="com.gollachut.bd.ui.SignInFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_sign_in" />
+
+
+
+</navigation>

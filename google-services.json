@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1066596773970",
+    "firebase_url": "https://gollachut-1865b.firebaseio.com",
+    "project_id": "gollachut-1865b",
+    "storage_bucket": "gollachut-1865b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066596773970:android:a21bbf0d5dc6fb77eaef8b",
+        "android_client_info": {
+          "package_name": "com.gollachut.bd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066596773970-882qsei9qadp1ll1k0mk0d2k3ksavhap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gollachut.bd",
+            "certificate_hash": "eacceecd3cbe3eeb8791530d3426b207d86fef34"
+          }
+        },
+        {
+          "client_id": "1066596773970-b218878r0mmf21ft23t8971bdqe0v8p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrjr9QStbVxB34xZV1X5BRo2HJKSv21f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066596773970-b218878r0mmf21ft23t8971bdqe0v8p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
